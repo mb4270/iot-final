@@ -126,24 +126,21 @@
 							<h3 align="left">Hardware Implementation</h3>
 							<p align = "left"> Components: 1. Arducam-Mini OVA2640 Module with Arduino Nano ESP8266 Wifi board 2. PIR motion sensor </p>
 
-							<a href="#" class="image fit"><img src="images/hardwareflow.jpg" alt="" /></a>							
+							<img src="images/hardwareflow.jpg" style="width:1200px;height:400px;">						
 							<hr>
 
-							<h3 align="left">Architecture</h3>
+
+							<h3 align="left">Image Classification</h3>
+
+							<p align="left">After receiving an image from the board, the next step in the is to clasify it. The image is processed through the Google Image Vision Api in order to find features like dominant colors, type of weather the clothes should be used in, formality of the clothes and brightness of the clothes. The data is normalized and sent to an SVM Module to get an unique id for each piece of clothing. Such id is given to the recommendation system</p>
+							
+							<img src="images/labelflow.png" style="width:800px;height:500px;">
+
+
+							
+							<h3 align="left">Recommendation System</h3>
 
 							<p align="left">Blah blah blah</p>
-							
-							
-							<h3 align="left">Technical Components</h3>
-
-							<p align="left">Blah blah blah</p>
-
-							
-							<h3 align="left">Prototype</h3>
-
-							<p align="left">Blah blah blah</p>
-							
-							
 							
 						</div>
 					</section>
@@ -156,15 +153,14 @@
 								<h2>Results</h2>
 							</header>
 
-							<p align="left">Remember to use figures to help illustrate results</p>
+							<h3 align="left">Wishlist</h3>
 
+							<img src="images/wishlist.png" style="width:1100px;height:700px;">
 
-							<article class="item">
-								<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-								<header>
-									<h3>Caption</h3>
-								</header>
-							</article>
+							<h3 align="left">Results</h3>
+
+							<img src="images/results.png" style="width:1200px;height:500px;">
+							
 							
 							
 						</div>
